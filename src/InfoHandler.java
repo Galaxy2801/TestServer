@@ -4,8 +4,6 @@ import com.sun.net.httpserver.HttpHandler;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
-import java.util.HashMap;
-import java.util.Map;
 
 // Обробник для API /api/info
 public class InfoHandler implements HttpHandler {
