@@ -14,6 +14,7 @@ public class Main {
 
         server.setExecutor(null); // за замовчуванням використовується пул потоків
         server.start();
+        // Вивід тексту про порт
         System.out.println("Сервер запущено на порту 8000");
     }
 }
